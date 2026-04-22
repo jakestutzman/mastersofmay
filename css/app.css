@@ -22,7 +22,7 @@ p { font-family: "Inter", sans-serif; color:#2a2a2a;  font-size: 1em; }
 #triangle { margin:0 auto 48px auto; padding-top:24px;  background-image: url(../img/triangle.svg); background-size: contain; background-repeat: no-repeat; background-position: top center; }
 
 h1 { width:120px; margin:0 auto; }
-#triangle h3 { font-size: .8em; display: block; padding:18px 0 72px 0; text-align: center; color:#999; }
+#triangle h3 { margin:0; font-size: .8em; display: block; padding:18px 0 72px 0; text-align: center; color:#999; }
 #header h2 { font-size:2.5em; text-align: center; font-style: italic; color:#355C63;  }
 h4 em { border-bottom: 2px solid #D9B166; }
 
@@ -84,5 +84,8 @@ svg { color:#D9B166; }
     h2 { font-size: 2.2em; }
     h3 { color:#fff; }
     h4 { font-size: 1.2em; }
-    h4 em {display: block; }
 }
+
+@media screen and (min-width: 600px)  {
+        .mobile-break { display: none; }
+    }

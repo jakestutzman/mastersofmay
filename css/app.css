@@ -73,3 +73,5 @@ a.button:hover { background:#000; }
 #register iframe {margin:0 auto;}
 
 svg { color:#D9B166; }
+
+.grid-container.fluid {margin:0; padding:0; }

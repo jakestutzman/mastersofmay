@@ -76,6 +76,7 @@ svg { color:#D9B166; }
 
 .grid-container.fluid {margin:0; padding:0; }
 
+.small-12 { margin:0 12px; }
 
 /* mobile styles */
 @media only screen and (max-width:320px) {

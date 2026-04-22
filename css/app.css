@@ -11,6 +11,10 @@ body {
 
 .row { padding: 144px 0;}
 
+@media (max-width: 480px) {
+    .row { padding: 72px 16px; }
+}
+
 /* default  type */
 h2 {font-family: "Inter", sans-serif; font-weight: 600; letter-spacing: -1px; line-height: 1em; font-size:2.5em; color:#2a2a2a; margin-bottom: 8px; text-align: center; }
 h3 {font-family: "Inter", sans-serif; font-weight: 600; letter-spacing: -1px; font-size:2.25em; color:#2a2a2a; margin-bottom:0px; }
@@ -19,7 +23,7 @@ h5 { font-family: "Inter", sans-serif; font-weight: 700; letter-spacing: -0.5px;
 p { font-family: "Inter", sans-serif; color:#2a2a2a;  font-size: 1em; }
 
 #header { margin:0; background-image: url(../img/hero.jpg); background-position: bottom center;  background-size: cover; padding-bottom:30%; }
-#triangle { margin:0 auto 48px auto; padding-top:24px;  background-image: url(../img/triangle.svg); background-size: contain; background-repeat: no-repeat; background-position: center; }
+#triangle { margin:0 auto 48px auto; padding-top:24px;  background-image: url(../img/triangle.svg); background-size: contain; background-repeat: no-repeat; background-position: top center; }
 
 h1 { width:120px; margin:0 auto; }
 #triangle h3 { font-size: .8em; display: block; padding:18px 0 72px 0; text-align: center; color:#999; }

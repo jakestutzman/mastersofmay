@@ -57,7 +57,7 @@ h4.price { margin-bottom:8px;}
 #quotes { margin-top:48px; }
 .quote { font-size: .8em; text-align: left;}
 
-#footer { background:#355C63;}
+#footer { background:#355C63; text-align: center;}
 #footer p {font-size:.8em; color:#FAF7EF;}
 
 .cta { padding:auto 0; width: 100%; text-align: center; }
